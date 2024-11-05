@@ -1,0 +1,26 @@
+<div>
+    <table class="table table-success table-striped justify-content-center">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Categoría</th>
+                <th>Estado</th>
+                <th>Fecha de Inicio</th>
+                <th>Ubicación</th>
+            </tr>
+        </thead> 
+        <tbody>
+            @for (item of proyectos; track $index) {
+            <tr>
+                <td>{{item.nombre}}</td>
+                <td>{{item.descripcion}}</td>
+                <td>{{item.categoria}}</td>
+                <td>{{item.estado}}</td>
+                <td>{{item.fecha_inicio}}</td>
+                <td>{{item.ubicacion}}</td>                
+            </tr>
+        }
+    </tbody>   
+    </table>
+</div>

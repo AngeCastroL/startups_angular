@@ -1,0 +1,69 @@
+.input-group{
+    background-color: rgb(213, 233, 164);
+   
+    padding: 7px 12px;
+    margin: 12% 32%; /*mover el div a cualquier punto*/
+    border: 10px; /* borde del div*/
+    border-radius: 25px;/*redondear el borde del div*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width: 500px;
+    height: 45%;
+}
+
+.form-control{
+    border-radius: 25px;
+    border: 5%;
+    margin: 30px;
+    justify-content: center;
+    align-items: center; 
+    display: flex;   
+    width: 350px;
+    height: 50px;  
+    
+}
+
+.titulo{
+    margin: 10px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.form-select{
+    width: 62%;
+    height: 45%;
+    border: 5%;
+    border-radius: 4%;
+    margin: 2px;
+
+}
+.contenedor{
+    padding: 10px 50px;
+    display: flex;
+}
+.btn1{
+    
+    width: 120px;
+    padding: 10px 10px;
+    margin: 10px 140px;
+    border: 10px;
+    border-radius: 25px;       
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+.btn2{    
+    width: 120px;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border: 10px;
+    border-radius: 25px;       
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    
+}

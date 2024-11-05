@@ -1,0 +1,20 @@
+<div class="input-group mb-3">
+    <form [formGroup]="registroForm">  
+      <div class="form-group" *ngIf="id">
+      <label for="" class="label"><h2>Registro de usuario</h2></label>
+      <input id="n_document" type="number" class="form-control mb-3" placeholder="Document" aria-label="Document" aria-describedby="basic-addon1" formControlName="n_document">
+      <input id="name" type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1" formControlName="name">
+      <input id="lastname" type="text" class="form-control" placeholder="Lastname" aria-label="Lastname" aria-describedby="basic-addon1" formControlName="lastname">  
+      <input id="email" type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1" formControlName="email">
+      <input id="password" type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" formArrayName="password">
+      <input id="username" type="text" class="form-control" placeholder="UserName" aria-label="Username" aria-describedby="basic-addon1" formControlName="username">
+      <input id="phone" type="number" class="form-control" placeholder="Number phone" aria-label="Number phone" aria-describedby="basic-addon1" formControlName="phone">
+      <input id="birthday" type="date" class="form-control" placeholder="Birthday" aria-label="Birthday" aria-describedby="basic-addon1" formControlName="birthday">
+      <select id="g" class="form-select" aria-label="Large select example">
+        <option selected formControlName="genero">Gender</option>
+        <option value="1">Femenino</option>
+        <option value="2">Masculino</option>    
+      </select>
+    </div>
+  </form> 
+  </div>         

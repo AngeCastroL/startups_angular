@@ -1,0 +1,68 @@
+.input-group{
+    background-color: rgb(47, 7, 226);
+   
+    padding: 7px 12px;
+    margin: 5% 25%;
+    border: 10px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width: 50%;
+    height: 45%;
+}
+.form-group{
+    padding: 3px 12px;
+    margin: 0% 5%;
+    border: 10px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width: 90%;
+    height: 95%;
+}
+.form-control{
+    border-radius: 25px;
+    border: 5%;
+    margin: 1%;
+    justify-content: center;
+    align-items: center; 
+    display: flex;   
+    width: 90%;
+    height: 95%;   
+}
+.label{
+    margin: 15%;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn{
+    display: flex;
+    padding: 10px 10px;
+}
+.btn1{
+    width: 50%;
+    padding: 5px 10px;
+    margin: 4px;
+    border: 10px;
+    border-radius: 25px;   
+    display: flex;
+    flex-direction: row;
+    
+}
+.btn2{
+    width: 50%;
+    padding: 5px 10px;
+    margin: 4px;
+    border: 10px;
+    border-radius: 25px;   
+    display: flex;
+    flex-direction: row;
+}

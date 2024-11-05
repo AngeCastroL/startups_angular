@@ -1,0 +1,19 @@
+<div class="input-group mb-3">
+    <form [formGroup]="registroForm">
+        <div class="form-group">
+            <label for="" class="label"><h2>Registro de usuario</h2></label>
+            <input id="tipo_documento" type="text" class="form-control" placeholder="Tipo documento" aria-label="Tipo documento" aria-describedby="basic-addon1" formControlName="tipo_documento">
+            <input id="documento" type="text" class="form-control" placeholder="Documento" aria-label="Documento" aria-describedby="basic-addon1" formControlName="documento">
+            <input id="nombre" type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" aria-describedby="basic-addon1" formControlName="nombre">
+            <input id="apellido" type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" aria-describedby="basic-addon1" formControlName="apellido">  
+            <input id="correo" type="email" class="form-control" placeholder="Correo" aria-label="Correo" aria-describedby="basic-addon1" formControlName="correo">
+            <input id="usuario" type="text" class="form-control" placeholder="Usuario" aria-label="Usuario" aria-describedby="basic-addon1" formControlName="usuario">
+            <input id="contrasenia" type="text" class="form-control" placeholder="Contraseña" aria-label="Contraseña" aria-describedby="basic-addon1" formArrayName="contrasenia">
+            <input id="telefono" type="number" class="form-control" placeholder="Telefono" aria-label="Telefono" aria-describedby="basic-addon1" formControlName="telefono">
+            <input id="fecha_nacimiento" type="date" class="form-control" placeholder="Fecha de nacimiento" aria-label="Fecha de nacimiento" aria-describedby="basic-addon1" formControlName="fecha_nacimiento">
+            <div class="form-btn"><button type="button" class="btn1 btn-primary" (click)="onSubmit()">Registrar</button>
+                <button type="button" class="btn2 btn-secondary">Cancelar</button>
+              </div>
+        </div>
+    </form> 
+    </div>

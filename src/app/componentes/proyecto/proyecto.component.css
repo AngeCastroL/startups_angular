@@ -1,51 +1,32 @@
 .input-group{
-    background-color: rgb(47, 7, 226);
-   
-    padding: 7px 12px;
-    margin: 5% 25%;
-    border: 10px;
-    border-radius: 25px;
-    justify-content: center;
+    background-color: rgb(213, 233, 164);
+    padding: 7px 50px;
+    margin: 12% 32%; /*mover el div a cualquier punto*/
+    border: 10px; /* borde del div*/
+    border-radius: 25px;/*redondear el borde del div*/  
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    position:relative;
-    width: 50%;
-    height: 45%;
-}
-.form-group{
-    padding: 3px 12px;
-    margin: 0% 5%;
-    border: 10px;
-    border-radius: 25px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    position:relative;
-    width: 90%;
-    height: 95%;
+    flex-direction: column; 
+    width: 500px;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    transform: translate(-50%, -50%);
 }
 .form-control{
     border-radius: 25px;
     border: 5%;
-    margin: 1%;
+    margin: 10px;
     justify-content: center;
     align-items: center; 
     display: flex;   
-    width: 90%;
-    height: 95%;   
+    width: 350px;
+    height: 50px;   
 }
 .label{
-    margin: 15%;
-    align-items: center; 
-    display: flex;
-    justify-content: center;
-}
-
-.form-btn{
-    display: flex;
-    padding: 10px 10px;
+    margin: 10px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .btn1{
     width: 50%;
@@ -54,8 +35,7 @@
     border: 10px;
     border-radius: 25px;   
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row; 
 }
 .btn2{
     width: 50%;

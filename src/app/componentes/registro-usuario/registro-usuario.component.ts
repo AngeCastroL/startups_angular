@@ -60,29 +60,10 @@ export class RegistroUsuarioComponent implements OnInit{
       }
     });
   }
-  /*
 
-
-  constructor(
-    private registroUsuarioServicio:RegistroUsuarioService,
-    private route: ActivatedRoute,
-    private formBuilder: FormBuilder
-  ){
-    this.registroForm=this.formBuilder.group({
-      documento:['', this.id ? Validators.required : null],
-      nombre:['', Validators.required],
-      apellido:['', Validators.required],
-      tipo_documento:['', Validators.required],
-      usuario:['', Validators.required],
-      contrasenia:['', Validators.required],
-      correo:['', Validators.required],
-      telefono:['', Validators.required],
-      fecha_nacimiento:['', Validators.required]
-    })
-  }
-  */
   onSubmit(){
     
     this.crearUsuario();
+    this.registroForm.reset()
   } 
 }

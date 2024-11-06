@@ -16,6 +16,7 @@ import { Router, RouterLink } from '@angular/router';
 export class LoginComponent implements OnInit {
   loginForm: FormGroup;
   errorMessage: string = '';
+  isLoginClicked: boolean = false;
 
   constructor(
     private fb: FormBuilder, 
@@ -39,7 +40,7 @@ export class LoginComponent implements OnInit {
         next: (response: RegistroUsuario) => {
           console.log('Inicio de sesión exitoso:', response);
           console.log(documento)
-          
+          this.isLoginClicked = true;
           this.router.navigateByUrl(`/proyectos/${documento}`);
         },
         error: (error) => {

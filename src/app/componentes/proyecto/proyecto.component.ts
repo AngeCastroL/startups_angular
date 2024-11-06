@@ -63,7 +63,7 @@ export class ProyectoComponent implements OnInit{
 
   onSubmit(){
     this.crearProyecto();
-  
+    this.registroForm.reset()
   } 
 
 }
